@@ -17,9 +17,7 @@ Instructions for training the model:
 -num_prototypes is an integer indicating the number of prototypes to use (must be a multiple of the number of classes in the dataset)
 -incorrect_class_connection is the value incorrect class connections are initialized to
 -deformable_conv_hidden_channels is the integer number of hidden channels to use on offset prediction branch
--rand_seed is an integer setting the random seed to use for this experiment
-
-Recommended values for all arguments on CUB_200 can be found in run.sh
+-rand_seed is an integer setting the random seed to use for this experiment.
 
 Instructions for finding the nearest prototypes to a test image:
 1. Run local_analysis.py and supply the following arguments:
